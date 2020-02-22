@@ -1,0 +1,77 @@
+.container{
+    width:80%;
+    margin: auto;
+}
+h1.title{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+/*form*/
+
+label,input{
+    display: block;
+}
+input[type='text']{
+    margin: 15px 0;
+    padding: 5px;
+    width: 100%;
+}
+.btn{
+   color: #fff;
+   text-align: center;
+}
+.add{
+   cursor: pointer;
+   background-color: rgb(65, 161, 65);
+   width: 100%;
+   height: 2em;
+   padding-top: 10px;
+}
+.danger{
+    cursor: pointer;
+    background-color: red;
+    padding: 0.3em;
+}
+.center{
+    padding: 2em;
+    height: auto;
+    width:80%;
+    margin:auto;
+}
+
+/*Tables*/
+table{
+    width: 80%;
+    margin:auto;
+    margin-top: 1em;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(226, 210, 210);
+}
+
+table,tr{
+   border-top: 1px solid rgb(189, 203, 218);
+   border-bottom: 1px solid rgb(189, 203, 218);
+   border-collapse: collapse;
+}
+th,td{
+    padding: 15px;
+    text-align: left;
+}
+
+.alert{
+    width:80%;
+    height:1em;
+    padding: 1em;
+    color:#fff;
+    margin:auto;
+    margin-bottom: 1em;
+}
+.alert-success{
+    background-color:green;
+}
+.alert-failure{
+    background-color:red;
+}
